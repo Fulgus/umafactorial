@@ -10,8 +10,6 @@ public class factorial {
 			return num.multiply(fact(num.subtract(BigInteger.ONE)));
 		}
 	}
-<<<<<<< HEAD
-=======
 
 	public static BitInteger getNumber() {
 		Scanner scanInput = new Scanner(System.in);
@@ -24,18 +22,18 @@ public class factorial {
 	public static void showFac(BitInteger num) {
 		if (num.compareTo(BigInteger.ZERO)<0) {
 			System.out.println("El factorial no esta definido" + " para numeros negativos");
->>>>>>> refacIO
+
 		} else {
 			BigInteger fac = fact(num);
 
 			System.out.println("El factorial de "+num+" es "+fac);
 		}
-<<<<<<< HEAD
+
 
 		scanInput.close();
 	}
 
-=======
+
 	}
 
 	public static void main(String []args) {
@@ -45,6 +43,4 @@ public class factorial {
 	}
 
 
-
->>>>>>> refacIO
 }
